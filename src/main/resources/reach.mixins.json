@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "com.rhseung.reach.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "ItemStackMixin",
+        "MaceItemMixin",
+        "PlayerEntityMixin",
+        "ToolMaterialMixin",
+        "TridentItemMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+	}
+}
